@@ -8,6 +8,6 @@
 [马上开始 <i class="iconfont icon-down"></i>](#main)
 
 <!-- background image -->
-![png](r-min.jpg)
+![png](8.png)
 
 
