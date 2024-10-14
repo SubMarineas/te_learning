@@ -63,14 +63,20 @@
         <mxCell id="0PWcWgmqo8M1AOXlBrL7-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0PWcWgmqo8M1AOXlBrL7-4" target="0PWcWgmqo8M1AOXlBrL7-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0PWcWgmqo8M1AOXlBrL7-4" value="根据视频流数量与索引范围创建解码线程" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0PWcWgmqo8M1AOXlBrL7-4" value="创建视频流前处理进程" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250" y="680" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0PWcWgmqo8M1AOXlBrL7-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="0PWcWgmqo8M1AOXlBrL7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="0PWcWgmqo8M1AOXlBrL7-6" target="0PWcWgmqo8M1AOXlBrL7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0PWcWgmqo8M1AOXlBrL7-6" value="根据视频流数量与索引范围创建一对一的解码线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0PWcWgmqo8M1AOXlBrL7-9" value="初始化共享内存空间" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0PWcWgmqo8M1AOXlBrL7-13" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="250" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
